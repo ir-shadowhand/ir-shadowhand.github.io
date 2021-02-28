@@ -329,7 +329,7 @@ $(function() {
 		"Murder",
 		"Espionage",
 		"Unauthorized Dissemination of Classified Information",
-		"Theft or Damage of Government Property",
+		"Damage of Government Property",
 	],
     	
 	lvl2: [
