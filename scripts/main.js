@@ -6,10 +6,10 @@ $(function() {
     WTF.init({
 
         heading: [
-            "[[ SHADOWHAND CONTRACT // ACCESSING DATABASE... ]]<br><br>[[ SHADOWHAND AUTHORIZATION ACKNOWLEDGED ]]"
+            "[[ SHADOWHAND CONTRACT // ACCESSING DATABASE... ]]<br><br>[[ SHADOWHAND AUTHORIZATION ACKNOWLEDGED TEST TEST ]]"
         ],
         response: [
-           "[[ RETRIEVE NEXT CONTRACT TEST TEST ]]"
+           "[[ RETRIEVE NEXT CONTRACT]]"
         ],
         template: [
             "Your mission is to go to @locale and @mission. The target is @behavior @target. However, be careful because @complication. @theme.",
