@@ -27,7 +27,7 @@ $(function() {
 	"Your mission is to go to @locale and @mission. The target is @behavior @species @cyborg @target. However, be careful because @complication. @theme.<br><br><br>[[ Recommended for expert assassins.]]<br><br><br>[[Compensation // @expert // Mirtis Coins.]]<br><br><br>[[@guilty of multiple counts of @lvl1]]",
 	"Your objective is to go to @locale and @mission. The target is @behavior @species @cyborg @target. You may encounter resistance in the form of @obstacle. @theme.<br><br><br>[[ Recommended for expert assassins.]]<br><br><br>[[Compensation // @expert // Mirtis Coins.]]<br><br><br>[[@guilty of multiple counts of @lvl1]]",
 	
-	"This is a special contact. This mission is of great importance to the shadowhand. You will be required to go to @locale and @mission. This target is @behaviour @species @cyborg @target. You will encounter resistance in the form of @obstacle. You should also be careful, as @complication. @theme.<br><br><br>[[Recommended to master assassins.]]<br><br><br>[[Compensation // @expert // Mirtis Coins.]]<br><br><br>[[@lvl3]]",
+	"This is a special contact. This mission is of great importance to the shadowhand. You will be required to go to @locale and @mission. This target is @behavior @species @cyborg @target. You will encounter resistance in the form of @obstacle. You should also be careful, as @complication. @theme.<br><br><br>[[Recommended to master assassins.]]<br><br><br>[[Compensation // @master // Mirtis Coins.]]<br><br><br>[[@lvl3]]",
 	
 	
 	
@@ -383,6 +383,13 @@ $(function() {
 		"18",
 		"19",
 		"20"
+	],
+    	master :[
+		"21",
+		"22",
+		"23",
+		"24",
+		"25"
 	],
 	 
 		    
