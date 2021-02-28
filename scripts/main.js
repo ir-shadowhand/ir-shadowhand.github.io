@@ -282,7 +282,7 @@ $(function() {
 	    "Hutta"
         ],
     	difficulty: [
-		"rookie",
+		"rookie math.random();",
 		"intermediate",
 		"advanced",
 		"expert",
