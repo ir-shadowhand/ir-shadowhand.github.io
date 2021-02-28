@@ -9,7 +9,7 @@ $(function() {
             "[[ SHADOWHAND CONTRACT // ACCESSING DATABASE... ]]<br><br>[[ SHADOWHAND AUTHORIZATION ACKNOWLEDGED ]]"
         ],
         response: [
-           "[[ RETRIEVE NEXT CONTRACT ]]"
+           "[[ RETRIEVE NEXT CONTRACT TEST TEST ]]"
         ],
         template: [
             "Your mission is to go to @locale and @mission. The target is @behavior @target. However, be careful because @complication. @theme.",
