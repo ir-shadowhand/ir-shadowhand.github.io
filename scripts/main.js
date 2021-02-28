@@ -6,7 +6,7 @@ $(function() {
     WTF.init({
 
         heading: [
-            "[[ SHADOWHAND CONTRACT // ACCESSING DATABASE... ]]<br><br>[[ SHADOWHAND AUTHORIZATION ACKNOWLEDGED.]]"
+            "[[ SHADOWHAND CONTRACT // ACCESSING DATABASE... ]]<br><br>[[ SHADOWHAND AUTHORIZATION ACKNOWLEDGED.]] [[TARGET @guilty OF @crime]]"
         ],
         response: [
            "[[ RETRIEVE NEXT CONTRACT]]"
@@ -316,6 +316,22 @@ $(function() {
 		"",
 		"",
 		"cyborg",
+	],
+	    
+	guilty: [
+		"IS SUSPECTED",
+		"HAS BEEN FOUND GUILTY",
+	],
+	    
+	crime: [
+		"MURDER",
+		"EMBEZZLEMENT",
+		"DEFORMATION",
+		"VANDALISM OF IMPERIAL PROPERTY",
+		"ATTEMPTED ASSASSINATION",
+		"ASSAULT",
+		"SPYING"
+		
 	],
     	easy: [
 		"1",
