@@ -24,8 +24,8 @@ $(function() {
 	"Your mission is to go to @locale and @mission. The target is @behavior @species @cyborg @target. However, be careful because @complication. @theme.<br><br><br>[[ Recommended for experienced assassins.]]<br><br><br>[[Compensation // @hard // Mirtis Coins.]]<br><br><br>[[@guilty of @crime]]",
 	"Your objective is to go to @locale and @mission. The target is @behavior @species @cyborg @target. You may encounter resistance in the form of @obstacle. @theme.<br><br><br>[[ Recommended for experienced assassins.]]<br><br><br>[[Compensation // @hard // Mirtis Coins.]]<br><br><br>[[@guilty of @crime]]",
 
-	"Your mission is to go to @locale and @mission. The target is @behavior @species @cyborg @target. However, be careful because @complication. @theme.<br><br><br>[[ Recommended for expert assassins.]]<br><br><br>[[Compensation // @expert // Mirtis Coins.]]<br><br><br>[[@guilty of @crime]]",
-	"Your objective is to go to @locale and @mission. The target is @behavior @species @cyborg @target. You may encounter resistance in the form of @obstacle. @theme.<br><br><br>[[ Recommended for expert assassins.]]<br><br><br>[[Compensation // @expert // Mirtis Coins.]]<br><br><br>[[@guilty of @crime]]",
+	"Your mission is to go to @locale and @mission. The target is @behavior @species @cyborg @target. However, be careful because @complication. @theme.<br><br><br>[[ Recommended for expert assassins.]]<br><br><br>[[Compensation // @expert // Mirtis Coins.]]<br><br><br>[[@guilty of multiple counts of @crime]]",
+	"Your objective is to go to @locale and @mission. The target is @behavior @species @cyborg @target. You may encounter resistance in the form of @obstacle. @theme.<br><br><br>[[ Recommended for expert assassins.]]<br><br><br>[[Compensation // @expert // Mirtis Coins.]]<br><br><br>[[@guilty of multiple counts of @crime]]",
 	],
         locale: [
 		"Alderaan",
@@ -332,6 +332,34 @@ $(function() {
 		"ASSAULT",
 		"SPYING"
 		
+	],
+	class1: [
+		"Assault with lethal intent",
+		"Aggression against imperial personnel",
+		"Murder",
+		"Espionage",
+		"Unauthorized Dissemination of Classified Information",
+		"Theft or Damage of Government Property",
+	],
+    	
+	class2: [
+		"Assault with lethal intent",
+		"Aggression against imperial personnel",
+		"Murder",
+		"Espionage",
+		"Unauthorized Dissemination of Classified Information",
+		"Theft or Damage of Government Property",
+	],
+	class3: [
+		"Disrespect of a Superior/Insubordination",
+		"Resisting Arrest",
+		"Enslavement of Unauthorized Individuals",
+		"Kidnapping",
+		"Embezzlement",
+		"Aiding and Abetting"
+	],
+    	class4: [
+		"..."
 	],
     	easy: [
 		"1",
