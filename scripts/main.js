@@ -12,8 +12,8 @@ $(function() {
            "[[ RETRIEVE NEXT CONTRACT]]"
         ],
         template: [
-    	"Your mission is to go to @locale and @mission. The target is @behavior @species @cyborg @target. However, be careful because @complication. @theme.<br><br><br>[[ Recommended for rookie level assassins.]]<br><br><br>[[Compensation // @easy // Mirtis Coins.]]<br><br><br>[[@guilty of @crime]]",
-	"Your objective is to go to @locale and @mission. The target is @behavior @species @cyborg @target. You may encounter resistance in the form of @obstacle. @theme.<br><br><br>[[ Recommended for rookie level assassins.]]<br><br><br>[[Compensation // @easy // Mirtis Coins.]]<br><br><br>[[@guilty of @crime]]",
+    	"Your mission is to go to @locale and @mission. The target is @behavior @species @cyborg @target. However, be careful because @complication. @theme.<br><br><br>[[ Recommended for rookie level assassins.]]<br><br><br>[[Compensation // @easy // Mirtis Coins.]]<br><br><br>[[@guilty of @lvl2]]",
+	"Your objective is to go to @locale and @mission. The target is @behavior @species @cyborg @target. You may encounter resistance in the form of @obstacle. @theme.<br><br><br>[[ Recommended for rookie level assassins.]]<br><br><br>[[Compensation // @easy // Mirtis Coins.]]<br><br><br>[[@guilty of @lvl2]]",
 
 	"Your mission is to go to @locale and @mission. The target is @behavior @species @cyborg @target. However, be careful because @complication. @theme.<br><br><br>[[ Recommended for rookie level assassins.]]<br><br><br>[[Compensation // @easy // Mirtis Coins.]]<br><br><br>[[@guilty of @lvl2]]",
 	"Your objective is to go to @locale and @mission. The target is @behavior @species @cyborg @target. You may encounter resistance in the form of @obstacle. @theme.<br><br><br>[[ Recommended for rookie level assassins.]]<br><br><br>[[Compensation // @easy // Mirtis Coins.]]<br><br><br>[[@guilty of @lvl2]]",
@@ -21,7 +21,7 @@ $(function() {
 	"Your mission is to go to @locale and @mission. The target is @behavior @species @cyborg @target. However, be careful because @complication. @theme.<br><br><br>[[ Recommended for intermediate level assassins.]]<br><br><br>[[Compensation // @medium // Mirtis Coins.]]<br><br><br>[[@guilty of @lvl2]]",
 	"Your objective is to go to @locale and @mission. The target is @behavior @species @cyborg @target. You may encounter resistance in the form of @obstacle. @theme.<br><br><br>[[ Recommended for intermediate level assassins.]]<br><br><br>[[Compensation // @medium // Mirtis Coins.]]<br><br><br>[[@guilty of @lvl2]]",
 
-	"Your mission is to go to @locale and @mission. The target is @behavior @species @cyborg @target. However, be careful because @complication. @theme.<br><br><br>[[ Recommended for experienced assassins.]]<br><br><br>[[Compensation // @hard // Mirtis Coins.]]<br><br><br>[[@guilty of @crime]]",
+	"Your mission is to go to @locale and @mission. The target is @behavior @species @cyborg @target. However, be careful because @complication. @theme.<br><br><br>[[ Recommended for experienced assassins.]]<br><br><br>[[Compensation // @hard // Mirtis Coins.]]<br><br><br>[[@guilty of @lvl1]]",
 	"Your objective is to go to @locale and @mission. The target is @behavior @species @cyborg @target. You may encounter resistance in the form of @obstacle. @theme.<br><br><br>[[ Recommended for experienced assassins.]]<br><br><br>[[Compensation // @hard // Mirtis Coins.]]<br><br><br>[[@guilty of @lvl1]]",
 
 	"Your mission is to go to @locale and @mission. The target is @behavior @species @cyborg @target. However, be careful because @complication. @theme.<br><br><br>[[ Recommended for expert assassins.]]<br><br><br>[[Compensation // @expert // Mirtis Coins.]]<br><br><br>[[@guilty of multiple counts of @lvl1]]",
@@ -323,16 +323,6 @@ $(function() {
 		"HAS BEEN FOUND GUILTY",
 	],
 	    
-	crime: [
-		"MURDER",
-		"EMBEZZLEMENT",
-		"DEFORMATION",
-		"VANDALISM OF IMPERIAL PROPERTY",
-		"ATTEMPTED ASSASSINATION",
-		"ASSAULT",
-		"SPYING"
-		
-	],
 	lvl1: [
 		"Assault with lethal intent",
 		"Aggression against imperial personnel",
