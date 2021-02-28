@@ -286,6 +286,7 @@ $(function() {
 		    "intermediate",
 		    "advanced",
 		    "expert",
+	],
 		    
     });
 
