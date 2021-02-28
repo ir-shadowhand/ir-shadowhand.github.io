@@ -12,20 +12,20 @@ $(function() {
            "[[ RETRIEVE NEXT CONTRACT]]"
         ],
         template: [
-    	"Your mission is to go to @locale and @mission. The target is @behavior @target. However, be careful because @complication. @theme.<br><br><br>[[ Recommended for rookie level assassins.]]<br><br><br>[[Compensation // @easy // Mirtis Coins.]]",
-	"Your objective is to go to @locale and @mission. The target is @behavior @target. You may encounter resistance in the form of @obstacle. @theme.<br><br><br>[[ Recommended for rookie level assassins.]]<br><br><br>[[Compensation // @easy // Mirtis Coins.]]",
+    	"Your mission is to go to @locale and @mission. The target is @behavior @species @cyborg @target. However, be careful because @complication. @theme.<br><br><br>[[ Recommended for rookie level assassins.]]<br><br><br>[[Compensation // @easy // Mirtis Coins.]]",
+	"Your objective is to go to @locale and @mission. The target is @behavior @species @cyborg @target. You may encounter resistance in the form of @obstacle. @theme.<br><br><br>[[ Recommended for rookie level assassins.]]<br><br><br>[[Compensation // @easy // Mirtis Coins.]]",
 
-	"Your mission is to go to @locale and @mission. The target is @behavior @target. However, be careful because @complication. @theme.<br><br><br>[[ Recommended for rookie level assassins.]]<br><br><br>[[Compensation // @easy // Mirtis Coins.]]",
-	"Your objective is to go to @locale and @mission. The target is @behavior @target. You may encounter resistance in the form of @obstacle. @theme.<br><br><br>[[ Recommended for rookie level assassins.]]<br><br><br>[[Compensation // @easy // Mirtis Coins.]]",
+	"Your mission is to go to @locale and @mission. The target is @behavior @species @cyborg @target. However, be careful because @complication. @theme.<br><br><br>[[ Recommended for rookie level assassins.]]<br><br><br>[[Compensation // @easy // Mirtis Coins.]]",
+	"Your objective is to go to @locale and @mission. The target is @behavior @species @cyborg @target. You may encounter resistance in the form of @obstacle. @theme.<br><br><br>[[ Recommended for rookie level assassins.]]<br><br><br>[[Compensation // @easy // Mirtis Coins.]]",
 
-	"Your mission is to go to @locale and @mission. The target is @behavior @target. However, be careful because @complication. @theme.<br><br><br>[[ Recommended for intermediate level assassins.]]<br><br><br>[[Compensation // @medium // Mirtis Coins.]]",
-	"Your objective is to go to @locale and @mission. The target is @behavior @target. You may encounter resistance in the form of @obstacle. @theme.<br><br><br>[[ Recommended for intermediate level assassins.]]<br><br><br>[[Compensation // @medium // Mirtis Coins.]]",
+	"Your mission is to go to @locale and @mission. The target is @behavior @species @cyborg @target. However, be careful because @complication. @theme.<br><br><br>[[ Recommended for intermediate level assassins.]]<br><br><br>[[Compensation // @medium // Mirtis Coins.]]",
+	"Your objective is to go to @locale and @mission. The target is @behavior @species @cyborg @target. You may encounter resistance in the form of @obstacle. @theme.<br><br><br>[[ Recommended for intermediate level assassins.]]<br><br><br>[[Compensation // @medium // Mirtis Coins.]]",
 
-	"Your mission is to go to @locale and @mission. The target is @behavior @target. However, be careful because @complication. @theme.<br><br><br>[[ Recommended for experienced assassins.]]<br><br><br>[[Compensation // @hard // Mirtis Coins.]]",
-	"Your objective is to go to @locale and @mission. The target is @behavior @target. You may encounter resistance in the form of @obstacle. @theme.<br><br><br>[[ Recommended for experienced assassins.]]<br><br><br>[[Compensation // @hard // Mirtis Coins.]]",
+	"Your mission is to go to @locale and @mission. The target is @behavior @species @cyborg @target. However, be careful because @complication. @theme.<br><br><br>[[ Recommended for experienced assassins.]]<br><br><br>[[Compensation // @hard // Mirtis Coins.]]",
+	"Your objective is to go to @locale and @mission. The target is @behavior @species @cyborg @target. You may encounter resistance in the form of @obstacle. @theme.<br><br><br>[[ Recommended for experienced assassins.]]<br><br><br>[[Compensation // @hard // Mirtis Coins.]]",
 
-	"Your mission is to go to @locale and @mission. The target is @behavior @target. However, be careful because @complication. @theme.<br><br><br>[[ Recommended for expert assassins.]]<br><br><br>[[Compensation // @expert // Mirtis Coins.]]",
-	"Your objective is to go to @locale and @mission. The target is @behavior @target. You may encounter resistance in the form of @obstacle. @theme.<br><br><br>[[ Recommended for expert assassins.]]<br><br><br>[[Compensation // @expert // Mirtis Coins.]]",
+	"Your mission is to go to @locale and @mission. The target is @behavior @species @cyborg @target. However, be careful because @complication. @theme.<br><br><br>[[ Recommended for expert assassins.]]<br><br><br>[[Compensation // @expert // Mirtis Coins.]]",
+	"Your objective is to go to @locale and @mission. The target is @behavior @species @cyborg @target. You may encounter resistance in the form of @obstacle. @theme.<br><br><br>[[ Recommended for expert assassins.]]<br><br><br>[[Compensation // @expert // Mirtis Coins.]]",
 	],
         locale: [
 		"Alderaan",
@@ -291,6 +291,31 @@ $(function() {
             "Ilum",
             "Onderon",
 	    "Hutta"
+	],
+	    
+    	species: [
+		"Chiss",
+		"Human",
+		"Twi'lek",
+		"Mirialan",
+		"Zabrak",
+		"Togruta",
+		"Pantoran",
+		"Kiffar",
+		"Arkanian",
+		"Nautolan",
+		"Keshiri",
+		"Teevan",
+		"Tholothian",
+	],
+	    
+	cyborg: [
+		"",
+		"",
+		"",
+		"",
+		"",
+		"cyborg",
 	],
     	easy: [
 		"1",
