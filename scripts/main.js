@@ -6,7 +6,7 @@ $(function() {
     WTF.init({
 
         heading: [
-            "[[ SHADOWHAND CONTRACT // ACCESSING DATABASE... ]]<br><br>[[ SHADOWHAND AUTHORIZATION ACKNOWLEDGED TEST TEST ]]"
+            "[[ SHADOWHAND CONTRACT // ACCESSING DATABASE... ]]<br><br>[[ SHADOWHAND AUTHORIZATION ACKNOWLEDGED]]"
         ],
         response: [
            "[[ RETRIEVE NEXT CONTRACT]]"
