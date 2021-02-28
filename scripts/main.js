@@ -26,6 +26,11 @@ $(function() {
 
 	"Your mission is to go to @locale and @mission. The target is @behavior @species @cyborg @target. However, be careful because @complication. @theme.<br><br><br>[[ Recommended for expert assassins.]]<br><br><br>[[Compensation // @expert // Mirtis Coins.]]<br><br><br>[[@guilty of multiple counts of @lvl1]]",
 	"Your objective is to go to @locale and @mission. The target is @behavior @species @cyborg @target. You may encounter resistance in the form of @obstacle. @theme.<br><br><br>[[ Recommended for expert assassins.]]<br><br><br>[[Compensation // @expert // Mirtis Coins.]]<br><br><br>[[@guilty of multiple counts of @lvl1]]",
+	
+	"This is a special contact. This mission is of great importance to the shadowhand. You will be required to go to @locale and @mission. This target is @behaviour @species @cyborg @target. You will encounter resistance in the form of @obstacle. You should also be careful, as @complication. @theme.<br><br><br>[[Recommended to master assassins.]]<br><br><br>[[@lvl3]]",
+	
+	
+	
 	],
         locale: [
 		"Alderaan",
@@ -340,6 +345,15 @@ $(function() {
 		"Embezzlement",
 		"Aiding and Abetting"
 	],
+	    
+	lvl3: [
+		"Posession of top secret imperial Knowledge",
+		"Murder of a high ranking imperial",
+		"Planning a major attack on Imperial soil",
+		"Plans to reveal top secret imperial knowledge",
+		"Starting a revolution on a backwater imperial mining planet",
+		"Assault of a high ranking imperial officer",
+		"Kidnapping of a high ranking imperial officer",
     	easy: [
 		"1",
 		"2",
