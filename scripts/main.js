@@ -6,26 +6,26 @@ $(function() {
     WTF.init({
 
         heading: [
-            "[[ SHADOWHAND CONTRACT // ACCESSING DATABASE... ]]<br><br>[[ SHADOWHAND AUTHORIZATION ACKNOWLEDGED.]] [[TARGET @guilty OF @crime]]"
+            "[[ SHADOWHAND CONTRACT // ACCESSING DATABASE... ]]<br><br>[[ SHADOWHAND AUTHORIZATION ACKNOWLEDGED.]]"
         ],
         response: [
            "[[ RETRIEVE NEXT CONTRACT]]"
         ],
         template: [
-    	"Your mission is to go to @locale and @mission. The target is @behavior @species @cyborg @target. However, be careful because @complication. @theme.<br><br><br>[[ Recommended for rookie level assassins.]]<br><br><br>[[Compensation // @easy // Mirtis Coins.]]",
-	"Your objective is to go to @locale and @mission. The target is @behavior @species @cyborg @target. You may encounter resistance in the form of @obstacle. @theme.<br><br><br>[[ Recommended for rookie level assassins.]]<br><br><br>[[Compensation // @easy // Mirtis Coins.]]",
+    	"Your mission is to go to @locale and @mission. The target is @behavior @species @cyborg @target. However, be careful because @complication. @theme.<br><br><br>[[ Recommended for rookie level assassins.]]<br><br><br>[[Compensation // @easy // Mirtis Coins.]]<br><br><br>[[@guilty of @crime]]",
+	"Your objective is to go to @locale and @mission. The target is @behavior @species @cyborg @target. You may encounter resistance in the form of @obstacle. @theme.<br><br><br>[[ Recommended for rookie level assassins.]]<br><br><br>[[Compensation // @easy // Mirtis Coins.]]<br><br><br>[[@guilty of @crime]]",
 
-	"Your mission is to go to @locale and @mission. The target is @behavior @species @cyborg @target. However, be careful because @complication. @theme.<br><br><br>[[ Recommended for rookie level assassins.]]<br><br><br>[[Compensation // @easy // Mirtis Coins.]]",
-	"Your objective is to go to @locale and @mission. The target is @behavior @species @cyborg @target. You may encounter resistance in the form of @obstacle. @theme.<br><br><br>[[ Recommended for rookie level assassins.]]<br><br><br>[[Compensation // @easy // Mirtis Coins.]]",
+	"Your mission is to go to @locale and @mission. The target is @behavior @species @cyborg @target. However, be careful because @complication. @theme.<br><br><br>[[ Recommended for rookie level assassins.]]<br><br><br>[[Compensation // @easy // Mirtis Coins.]]<br><br><br>[[@guilty of @crime]]",
+	"Your objective is to go to @locale and @mission. The target is @behavior @species @cyborg @target. You may encounter resistance in the form of @obstacle. @theme.<br><br><br>[[ Recommended for rookie level assassins.]]<br><br><br>[[Compensation // @easy // Mirtis Coins.]]<br><br><br>[[@guilty of @crime]]",
 
-	"Your mission is to go to @locale and @mission. The target is @behavior @species @cyborg @target. However, be careful because @complication. @theme.<br><br><br>[[ Recommended for intermediate level assassins.]]<br><br><br>[[Compensation // @medium // Mirtis Coins.]]",
-	"Your objective is to go to @locale and @mission. The target is @behavior @species @cyborg @target. You may encounter resistance in the form of @obstacle. @theme.<br><br><br>[[ Recommended for intermediate level assassins.]]<br><br><br>[[Compensation // @medium // Mirtis Coins.]]",
+	"Your mission is to go to @locale and @mission. The target is @behavior @species @cyborg @target. However, be careful because @complication. @theme.<br><br><br>[[ Recommended for intermediate level assassins.]]<br><br><br>[[Compensation // @medium // Mirtis Coins.]]<br><br><br>[[@guilty of @crime]]",
+	"Your objective is to go to @locale and @mission. The target is @behavior @species @cyborg @target. You may encounter resistance in the form of @obstacle. @theme.<br><br><br>[[ Recommended for intermediate level assassins.]]<br><br><br>[[Compensation // @medium // Mirtis Coins.]]<br><br><br>[[@guilty of @crime]]",
 
-	"Your mission is to go to @locale and @mission. The target is @behavior @species @cyborg @target. However, be careful because @complication. @theme.<br><br><br>[[ Recommended for experienced assassins.]]<br><br><br>[[Compensation // @hard // Mirtis Coins.]]",
-	"Your objective is to go to @locale and @mission. The target is @behavior @species @cyborg @target. You may encounter resistance in the form of @obstacle. @theme.<br><br><br>[[ Recommended for experienced assassins.]]<br><br><br>[[Compensation // @hard // Mirtis Coins.]]",
+	"Your mission is to go to @locale and @mission. The target is @behavior @species @cyborg @target. However, be careful because @complication. @theme.<br><br><br>[[ Recommended for experienced assassins.]]<br><br><br>[[Compensation // @hard // Mirtis Coins.]]<br><br><br>[[@guilty of @crime]]",
+	"Your objective is to go to @locale and @mission. The target is @behavior @species @cyborg @target. You may encounter resistance in the form of @obstacle. @theme.<br><br><br>[[ Recommended for experienced assassins.]]<br><br><br>[[Compensation // @hard // Mirtis Coins.]]<br><br><br>[[@guilty of @crime]]",
 
-	"Your mission is to go to @locale and @mission. The target is @behavior @species @cyborg @target. However, be careful because @complication. @theme.<br><br><br>[[ Recommended for expert assassins.]]<br><br><br>[[Compensation // @expert // Mirtis Coins.]]",
-	"Your objective is to go to @locale and @mission. The target is @behavior @species @cyborg @target. You may encounter resistance in the form of @obstacle. @theme.<br><br><br>[[ Recommended for expert assassins.]]<br><br><br>[[Compensation // @expert // Mirtis Coins.]]",
+	"Your mission is to go to @locale and @mission. The target is @behavior @species @cyborg @target. However, be careful because @complication. @theme.<br><br><br>[[ Recommended for expert assassins.]]<br><br><br>[[Compensation // @expert // Mirtis Coins.]]<br><br><br>[[@guilty of @crime]]",
+	"Your objective is to go to @locale and @mission. The target is @behavior @species @cyborg @target. You may encounter resistance in the form of @obstacle. @theme.<br><br><br>[[ Recommended for expert assassins.]]<br><br><br>[[Compensation // @expert // Mirtis Coins.]]<br><br><br>[[@guilty of @crime]]",
 	],
         locale: [
 		"Alderaan",
