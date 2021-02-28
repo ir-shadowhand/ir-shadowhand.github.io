@@ -15,7 +15,8 @@ $(function() {
             "Your mission is to go to @locale and @mission. The target is @behavior @target. However, be careful because @complication. @theme.<br><br><br>[[ Recommended for @difficulty level assassins.]]<br><br><br>[[Compensation // X // Mirtis Coins.]]",
 	   "Your objective is to travel to @locale and @mission. The target is @behavior @target. You may encounter resistance in the form of @obstacle. @theme.<br><br><br>[[ Recommended for @difficulty level assassins.]]<br><br><br>[[Compensation // X // Mirtis Coins.]]", 
 	    "Your objective is to travel to @locale and @mission. The target is @behavior @target. However, be careful because @complication. @theme.<br><br><br>[[ Recommended for @difficulty level assassins.]]<br><br><br>[[Compensation // X // Mirtis Coins.]]",
-        ],
+		"Test",
+	],
         locale: [
 		"Alderaan",
 		"Balmorra",
@@ -286,6 +287,13 @@ $(function() {
 		"intermediate",
 		"advanced",
 		"expert",
+	],
+    	easy: [
+		"1"
+		"2"
+		"3"
+		"4"
+		"5"
 	],
 	 
 		    
