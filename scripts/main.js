@@ -12,9 +12,9 @@ $(function() {
            "[[ RETRIEVE NEXT CONTRACT]]"
         ],
         template: [
-            "Your mission is to go to @locale and @mission. The target is @behavior @target. However, be careful because @complication. @theme. Recommended for @difficulty level assassins.",
-	   "Your objective is to travel to @locale and @mission. The target is @behavior @target. You may encounter resistance in the form of @obstacle. @theme. Recommended for @difficulty level assassins.", 
-	    "Your objective is to travel to @locale and @mission. The target is @behavior @target. However, be careful because @complication. @theme. Recommended for @difficulty level assassins.",
+            "Your mission is to go to @locale and @mission. The target is @behavior @target. However, be careful because @complication. @theme.<br>Recommended for @difficulty level assassins.",
+	   "Your objective is to travel to @locale and @mission. The target is @behavior @target. You may encounter resistance in the form of @obstacle. @theme.<br>Recommended for @difficulty level assassins.", 
+	    "Your objective is to travel to @locale and @mission. The target is @behavior @target. However, be careful because @complication. @theme.<br>Recommended for @difficulty level assassins.",
         ],
         locale: [
 		"Alderaan",
