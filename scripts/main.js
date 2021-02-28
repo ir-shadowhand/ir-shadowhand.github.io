@@ -234,7 +234,7 @@ $(function() {
             "the target's appearance and exact identity is unknown",
             "the target employs a double for security",
             "the target is on the move and will be difficult to find",
-	    "the target has been accused of a crime",
+	    "law enforcement is closing in on them",
 	    "the target is expecting hostile action",
 	    "the target is imprisoned",
 	    "the target is missing",
