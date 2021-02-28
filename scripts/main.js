@@ -353,7 +353,9 @@ $(function() {
 		"Plans to reveal top secret imperial knowledge",
 		"Starting a revolution on a backwater imperial mining planet",
 		"Assault of a high ranking imperial officer",
-		"Kidnapping of a high ranking imperial officer",
+		"Kidnapping of a high ranking imperial officer"
+	],
+	    
     	easy: [
 		"1",
 		"2",
