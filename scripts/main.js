@@ -236,7 +236,7 @@ $(function() {
             "the target is on the move and will be difficult to find",
 	    "law enforcement is closing in on them",
 	    "the target is expecting hostile action",
-	    "the target is imprisoned",
+	    "the target is imprisoned by the republic",
 	    "the target is missing",
 	    "the target is hospitalized",
         ],
