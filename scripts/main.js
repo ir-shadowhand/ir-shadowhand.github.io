@@ -26,7 +26,12 @@ $(function() {
 	
 	"This is a special contact. This mission is of great importance to the shadowhand. You will be required to go to @locale and @mission. This target is @behavior @species @cyborg @target. You will encounter resistance in the form of @obstacle. You should also be careful, as @complication. @theme.<br><br><br>[[Recommended to master assassins.]]<br><br><br>[[Compensation // @master // Mirtis Coins.]]<br><br><br>[[@lvl3]]",
 	
-	
+	//Group Contracts -
+		
+	"Your objective is to travel to @locale and assassinate a group of targets. The targets are @group, well known for @bhr_group. In charge is a @behavior @species @cyborg. Be careful, as @cmp_group.<br><br><br>[[Compensation // @easy // Mirtis Coins.]]<br><br><br>[[@guilty of @lvl2]]",
+	"Your objective is to travel to @locale and assassinate a group of targets. The targets are @group, well known for @bhr_group. In charge is a @behavior @species @cyborg. Be careful, as @cmp_group.<br><br><br>[[Compensation // @medium // Mirtis Coins.]]<br><br><br>[[@guilty of multiple counts of @lvl2]]",
+	"Your objective is to travel to @locale and assassinate a group of targets. The targets are @group, well known for @bhr_group. In charge is a @behavior @species @cyborg. Be careful, as @cmp_group.<br><br><br>[[Compensation // @hard // Mirtis Coins.]]<br><br><br>[[@guilty of @lvl1]]",
+	"Your objective is to travel to @locale and assassinate a group of targets. The targets are @group, well known for @bhr_group. In charge is a @behavior @species @cyborg. Be careful, as @cmp_group.<br><br><br>[[Compensation // @expert // Mirtis Coins.]]<br><br><br>[[@guilty of multiple counts of @lvl1]]",
 	
 	],
         locale: [
@@ -172,6 +177,27 @@ $(function() {
 	    "a flustered",
 	    "a placid"
         ],
+	    
+    	bhr_group: [
+		"frequent communication",
+		"being intelligent",
+		"being physically strong",
+		"being good shots",
+		"being cunning",
+		"being overconfident",
+		"their knowledge in technology",
+		"being easily discouraged",
+		"their courage"
+		
+	    
+    	],
+    	cmp_group: [
+		"the group has access to thermal scanners, capable of seeing through cloak",
+		"they will be found in a tightly packed group",
+		"they are close. The death of one could lead the others to go beserk",
+		"they are trained in stealth, and are always very careful"
+	],
+	    
         target: [
             "pair of siblings who run a scrapyard",
             "politician up for re-election",
@@ -217,13 +243,13 @@ $(function() {
 	    "exporter of luxury goods"
         ],
         group: [
-            "smuggling ring",
-            "criminal syndicate",
-            "diplomat's staff",
+            "a smuggling ring",
+            "a criminal syndicate",
+            "a diplomat's staff",
             "politician's staff",
-            "pirate encampment",
+            "a pirate group",
 	    "managing team of a corporation",
-	    "noble's household staff"
+	    "a noble's household staff"
         ],
         complication: [
             "there's a bounty hunter on the target's trail",
