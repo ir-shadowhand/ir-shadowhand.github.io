@@ -204,6 +204,15 @@ $(function() {
 		"wildlife will likely become an issue",
 		"they are in a heavily populated area"
 	],
+	    
+	sz_group: [
+		"3",
+		"4",
+		"5",
+		"6"
+		
+
+	],
     	glt_group: [
 		"Group is suspected of"	
 		"Group has been found guilty of"
