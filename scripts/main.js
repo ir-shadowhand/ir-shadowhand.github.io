@@ -210,11 +210,9 @@ $(function() {
 		"4",
 		"5",
 		"6"
-		
-
 	],
     	glt_group: [
-		"Group is suspected of"	
+		"Group is suspected of",
 		"Group has been found guilty of"
 	],
 	    
