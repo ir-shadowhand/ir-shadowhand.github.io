@@ -28,10 +28,11 @@ $(function() {
 	
 	//Group Contracts -
 		
-	"Your objective is to travel to @locale and assassinate a group of targets. The targets are @group, well known for @bhr_group. In charge is a @behavior @species @cyborg. Be careful, as @cmp_group.<br><br><br>[[Compensation // @easy // Mirtis Coins.]]<br><br><br>[[@guilty of @lvl2]]",
-	"Your objective is to travel to @locale and assassinate a group of targets. The targets are @group, well known for @bhr_group. In charge is a @behavior @species @cyborg. Be careful, as @cmp_group.<br><br><br>[[Compensation // @medium // Mirtis Coins.]]<br><br><br>[[@guilty of multiple counts of @lvl2]]",
-	"Your objective is to travel to @locale and assassinate a group of targets. The targets are @group, well known for @bhr_group. In charge is a @behavior @species @cyborg. Be careful, as @cmp_group.<br><br><br>[[Compensation // @hard // Mirtis Coins.]]<br><br><br>[[@guilty of @lvl1]]",
-	"Your objective is to travel to @locale and assassinate a group of targets. The targets are @group, well known for @bhr_group. In charge is a @behavior @species @cyborg. Be careful, as @cmp_group.<br><br><br>[[Compensation // @expert // Mirtis Coins.]]<br><br><br>[[@guilty of multiple counts of @lvl1]]",
+	"Your objective is to travel to @locale and assassinate a group of @sz_group targets. The targets are @group, well known for @bhr_group. In charge is a @behavior @species @cyborg. Be careful, as @cmp_group.<br><br><br>[[Compensation // @easy // Mirtis Coins.]]<br><br><br>[[@glt_group of @lvl2]]",
+	"Your objective is to travel to @locale and assassinate a group of @sz_group targets. The targets are @group, well known for @bhr_group. In charge is a @behavior @species @cyborg. Be careful, as @cmp_group.<br><br><br>[[Compensation // @medium // Mirtis Coins.]]<br><br><br>[[@glt_group of multiple counts of @lvl2]]",
+	"Your objective is to travel to @locale and assassinate a group of @sz_group targets. The targets are @group, well known for @bhr_group. In charge is a @behavior @species @cyborg. Be careful, as @cmp_group.<br><br><br>[[Compensation // @hard // Mirtis Coins.]]<br><br><br>[[@glt_group @lvl1]]",
+	"Your objective is to travel to @locale and assassinate a group of @sz_group targets. The targets are @group, well known for @bhr_group. In charge is a @behavior @species @cyborg. Be careful, as @cmp_group.<br><br><br>[[Compensation // @expert // Mirtis Coins.]]<br><br><br>[[@glt_group of multiple counts of @lvl1]]",
+	"This is a special contract. This mission is of great importance to the shadowhand. You will be required to travel to @locale and assassinate a group of @sz_group targets. The targets are @group, well known for @bhr_group. In charge is a @behavior @species @cyborg. Much care should be taken, as @cmp_group. It should also be noted that @obs_group. @theme.<br><br><br>[[Recommended to master assassins.]]<br><br><br>[[Compensation // @master // Mirtis Coins.]]<br><br><br>[[@lvl3]]",
 	
 	],
         locale: [
@@ -196,6 +197,16 @@ $(function() {
 		"they will be found in a tightly packed group",
 		"they are close. The death of one could lead the others to go beserk",
 		"they are trained in stealth, and are always very careful"
+	],
+	obs_group: [
+		"they are on the move",
+		"they have set up traps in the area",
+		"wildlife will likely become an issue",
+		"they are in a heavily populated area"
+	],
+    	glt_group: [
+		"Group is suspected of"	
+		"Group has been found guilty of"
 	],
 	    
         target: [
